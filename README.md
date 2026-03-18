@@ -29,6 +29,12 @@ It wrote the code, ran away, and now the game is unplayable.
 - [ ] Detail which bugs you found.
 - [ ] Explain what fixes you applied.
 
+I fixed a bug where the secret number reset on every click by properly using session state.
+
+I corrected the high/low hint logic which was reversed in the original AI code.
+
+I refactored the guessing and parsing functions into a separate utility file to make the code more professional and testable.
+
 ## 📸 Demo
 
 - [ ] [Insert a screenshot of your fixed, winning game here]
